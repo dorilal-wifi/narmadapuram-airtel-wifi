@@ -39,31 +39,31 @@ export default function Footer() {
 
           {/* Company */}
 
-          <div>
+          <div className="w-80 ">
 
             <Link
               to="home"
               smooth
               duration={600}
-              className="cursor-pointer flex flex-col justify-center w-51.5"              
+              className="cursor-pointer flex flex-col justify-center w-65"              
             >
               {/* <img
                 src={logo}
-                alt="Dori Lal WiFi"
+                alt="Narmadapuram Airtel WiFi"
                 className="h-12 md:h-14"
               /> */}
   
-              <h2 className="text-3xl font-bold">
-                Dorilal
+              <h2 className="text-[20px] font-bold">
+                Narmadapuram
                 <span className="text-red-600">
-                  {" "}Aitel{" "} 
+                  {" "}Airtel{" "} 
                 </span>
                 Wifi
               </h2>
-              <span className="text-xs flex justify-center">MADHYA PRADESH | CHATTISGARH</span>
+              <span className="w-65 text-xs flex justify-center">MADHYA PRADESH | CHATTISGARH</span>
             </Link>
 
-            <p className="text-gray-400 mt-6 leading-8">
+            <p className="text-gray-400 mt-6 leading-8 w-65">
               Delivering reliable high-speed
               fiber broadband with affordable
               plans, unlimited data and
@@ -73,12 +73,12 @@ export default function Footer() {
             <div className="flex gap-4 mt-8">
 
               <Social
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61593677048599"
                 icon={<FaFacebookF />}
               />
 
               <Social
-                href="#"
+                href="https://www.instagram.com/narmadapuram_airtel_wifi/"
                 icon={<FaInstagram />}
               />
 
@@ -170,7 +170,7 @@ export default function Footer() {
 
                 <MdEmail className="text-red-500"/>
 
-                dorilal.wifi@gmail.com
+                narmadapuram.airtel.wifi@gmail.com
 
               </div>
 
@@ -217,7 +217,7 @@ export default function Footer() {
   </a>
 
   {/* WhatsApp Button */}
-  <a
+  {/* <a
     href="https://wa.me/917354232967"
     target="_blank"
     rel="noreferrer"
@@ -244,7 +244,7 @@ export default function Footer() {
     <FaWhatsapp />
 
     Chat on WhatsApp
-  </a>
+  </a> */}
 
 </div>
 
@@ -268,7 +268,7 @@ export default function Footer() {
         <div className="container-custom py-6 flex flex-col md:flex-row justify-between items-center gap-4">
 
           <p className="text-gray-500 text-sm">
-            © 2026 Dorilal Airtel Wifi. All Rights Reserved.
+            © 2026 Narmadapuram Airtel Wifi. All Rights Reserved.
           </p>
 
           <p className="text-gray-500 text-sm">

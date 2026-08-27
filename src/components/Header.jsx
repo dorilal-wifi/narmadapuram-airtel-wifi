@@ -54,7 +54,7 @@ const Header = () => {
         border-white/10
       "
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-8xl mx-auto px-6">
 
         <div className="h-20 flex items-center justify-between">
 
@@ -64,22 +64,22 @@ const Header = () => {
             to="home"
             smooth
             duration={600}
-            className="cursor-pointer flex flex-col justify-center w-51.5"              
+            className="cursor-pointer flex flex-col justify-center w-80"              
           >
             {/* <img
               src={logo}
-              alt="Dori Lal WiFi"
+              alt="Narmadapuram Airtel WiFi"
               className="h-12 md:h-14"
             /> */}
 
-            <h2 className="text-3xl font-bold">
-              Dorilal
+            <h2 className="text-[25px] font-bold w-80">
+              Narmadapuram
               <span className="text-red-600">
-                {" "}Aitel{" "} 
+                {" "}Airtel{" "} 
               </span>
               Wifi
             </h2>
-            <span className="text-xs flex justify-center">MADHYA PRADESH | CHATTISGARH</span>
+            <span className="text-xs w-80 flex justify-center">MADHYA PRADESH | CHATTISGARH</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -172,7 +172,7 @@ const Header = () => {
     hover:shadow-red-600/40
     hover:scale-105
   "
-  aria-label="Call Dori Lal WiFi"
+  aria-label="Call Narmadapuram Airtel WiFi"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"

@@ -110,7 +110,7 @@ Selected Plan: ${data.plan}
             <ContactCard
               icon={<FaEnvelope />}
               title="Email"
-              text="dorilal.wifi@gmail.com"
+              text="narmadapuram.airtel.wifi@gmail.com"
             />
 
             {/* <ContactCard
@@ -213,7 +213,7 @@ Narmadapuram (M.P.) - 461001"
                 </span>
                 <select
                 
-                  className="contact-input"
+                  className="contact-input cusror-pointer"
                   {...register("plan", {
                     required: "Please select a broadband plan",
                   })}
@@ -223,7 +223,7 @@ Narmadapuram (M.P.) - 461001"
                     <option
                       key={plan.value}
                       value={plan.value}
-                      className="bg-[#161616]"
+                      className="bg-[#161616] cursor-pointer"
                     >
                       {plan.label}
                     </option>
@@ -238,9 +238,9 @@ Narmadapuram (M.P.) - 461001"
               </div>
 
               <div className="relative mt-6">
-                 <span className="absolute left-5 top-5 text-red-500 text-base">
-    <FaMapMarkerAlt />
-  </span>
+                <span className="absolute left-5 top-5 text-red-500 text-base">
+                  <FaMapMarkerAlt />
+                </span>
 
                 <textarea
                   rows={4}

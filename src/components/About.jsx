@@ -122,7 +122,7 @@ export default function About() {
             </h2>
 
             <p className="mt-8 text-gray-400 leading-8">
-              Dorilal Yadav is your trusted broadband sales and service partner, providing reliable internet solutions across Madhya Pradesh and Chhattisgarh. 
+              <span className="text-red-400 text-bold">Dorilal Yadav</span> is your trusted broadband sales and service partner, providing reliable internet solutions across <span className="text-red-400 text-bold">Madhya Pradesh and Chhattisgarh</span>. 
               We help customers choose the best broadband plans from providers with affordable pricing, quick installation, and local support.
               <br />
               Whether you need internet for your home, office, online classes, entertainment, or business, 
@@ -132,7 +132,7 @@ export default function About() {
             <p className="mt-6 text-gray-400 leading-8">
               Our goal is to make high-speed broadband accessible to everyone with transparent pricing, 
               fast service activation, and excellent customer support. From selecting the right plan to 
-              installation assistance, Dorilal Yadav is committed to providing a smooth and hassle-free experience.
+              installation assistance, <span className="text-red-400 text-bold">Dorilal Yadav</span> is committed to providing a smooth and hassle-free experience.
             </p>
 
             {/* Features */}

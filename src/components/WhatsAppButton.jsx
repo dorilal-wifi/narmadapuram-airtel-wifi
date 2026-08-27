@@ -11,8 +11,8 @@ export default function WhatsAppButton() {
         bottom-6
         right-6
         z-50
-        w-16
-        h-16
+        w-14
+        h-14
         rounded-full
         bg-[#25D366]
         flex
