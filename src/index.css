@@ -2,7 +2,13 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 12px;
+  font-size: 14px;
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 15px;
+  }
 }
 
 body {
@@ -132,7 +138,7 @@ body {
 .btn-primary {
   background: #e60012;
   color: white;
-  padding: 14px 32px;
+  padding: 14px 25px;
   border-radius: 999px;
   transition: .3s;
 }
@@ -144,7 +150,7 @@ body {
 .btn-outline {
   border: 1px solid #e60012;
   color: white;
-  padding: 14px 32px;
+  padding: 14px 25px;
   border-radius: 999px;
   transition: .3s;
 }

@@ -79,7 +79,7 @@ const Header = () => {
               </span>
               Wifi
             </h2>
-            <span className="text-xs w-80 flex justify-center">MADHYA PRADESH | CHATTISGARH</span>
+            <span className="text-xs w-100 flex justify-start">MADHYA PRADESH | CHATTISGARH</span>
           </Link>
 
           {/* Desktop Menu */}

@@ -60,7 +60,7 @@ export default function Footer() {
                 </span>
                 Wifi
               </h2>
-              <span className="w-65 text-xs flex justify-center">MADHYA PRADESH | CHATTISGARH</span>
+              <span className="w-80 text-xs flex justify-start">MADHYA PRADESH | CHATTISGARH</span>
             </Link>
 
             <p className="text-gray-400 mt-6 leading-8 w-65">
@@ -170,7 +170,7 @@ export default function Footer() {
 
                 <MdEmail className="text-red-500"/>
 
-                narmadapuram.airtel.wifi@gmail.com
+                dorilal.wifi@gmail.com
 
               </div>
 

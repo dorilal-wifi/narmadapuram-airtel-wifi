@@ -110,7 +110,7 @@ Selected Plan: ${data.plan}
             <ContactCard
               icon={<FaEnvelope />}
               title="Email"
-              text="narmadapuram.airtel.wifi@gmail.com"
+              text="dorilal.wifi@gmail.com"
             />
 
             {/* <ContactCard
