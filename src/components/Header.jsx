@@ -64,7 +64,7 @@ const Header = () => {
             to="home"
             smooth
             duration={600}
-            className="cursor-pointer flex flex-col justify-center w-80"              
+            className="cursor-pointer flex flex-col justify-center w-100"              
           >
             {/* <img
               src={logo}
@@ -72,7 +72,7 @@ const Header = () => {
               className="h-12 md:h-14"
             /> */}
 
-            <h2 className="text-[25px] font-bold w-80">
+            <h2 className="text-[25px] font-bold w-100">
               Narmadapuram
               <span className="text-red-600">
                 {" "}Airtel{" "} 

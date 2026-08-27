@@ -45,7 +45,7 @@ export default function Footer() {
               to="home"
               smooth
               duration={600}
-              className="cursor-pointer flex flex-col justify-center w-65"              
+              className="cursor-pointer flex flex-col justify-center w-80"              
             >
               {/* <img
                 src={logo}
