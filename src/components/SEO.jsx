@@ -4,7 +4,7 @@ export default function SEO() {
   return (
     <Helmet>
       <title>
-        Dori Lal WiFi | High-Speed Broadband Provider in Madhya Pradesh &
+        Narmadapuram Airtel Wifi | High-Speed Broadband Provider in Madhya Pradesh &
         Chhattisgarh
       </title>
 
@@ -21,11 +21,11 @@ export default function SEO() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "Dorilal Airtel WiFi",
-          image: "https://www.dorilalairtelwifi.com/logo.png",
-          url: "https://www.dorilalairtelwifi.com",
+          name: "Narmadapuram Airtel Wifi",
+          image: "https://narmadapuram-airtel-wifi.vercel.app/wifi-favicon.png",
+          url: "https://narmadapuram-airtel-wifi.vercel.app",
           telephone: "+91-7354232967",
-          email: "dorilaly14@gmail.com",
+          email: "dorilal.wifi@gmail.com",
           address: {
             "@type": "PostalAddress",
             streetAddress:
@@ -41,8 +41,8 @@ export default function SEO() {
           ],
           openingHours: "Mo-Su 09:00-20:00",
           sameAs: [
-            "https://facebook.com/yourpage",
-            "https://instagram.com/yourpage",
+            "https://www.facebook.com/profile.php?id=61593677048599",
+            "https://www.instagram.com/narmadapuram_airtel_wifi/",
           ],
         })}
       </script>
