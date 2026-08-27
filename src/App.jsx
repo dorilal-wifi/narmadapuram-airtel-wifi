@@ -19,7 +19,7 @@ function App() {
     <>
       <Helmet>
         <title>
-          Dori Lal WiFi | High Speed Fiber Internet
+          Narmadapuram Airtel Wifi | High-Speed Broadband Internet Plans in Narmadapuram
         </title>
 
         <meta
