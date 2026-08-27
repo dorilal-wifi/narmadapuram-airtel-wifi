@@ -2,7 +2,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 @media (min-width: 640px) {
